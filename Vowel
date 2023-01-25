@@ -1,0 +1,10 @@
+str=str(input("enter the sentence"))
+newstr=" "
+for n in str:
+    if(n=='A'or  n=='E' or n=='I' or n=='O' or n=='U'):
+	    newstr+="@"
+    elif(n=='a' or n=='e' or n=='i' or n=='o' or n=='u'):
+        newstr+="@"
+    else:
+	    newstr+=n
+print(newstr)
