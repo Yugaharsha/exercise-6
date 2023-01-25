@@ -1,0 +1,10 @@
+n=input("enter the sentence:")
+n1=n
+n=""
+for i in n1:
+    n=i+n
+print("the reversed string is ",n)
+
+output:
+enter the sentence:harshavardhini
+the reversed string is  inihdravahsrah
