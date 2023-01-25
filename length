@@ -1,0 +1,8 @@
+n=input("enter the string")
+count=0
+for i in n:
+    count+=1
+print("the lenght of the string is",count)
+OUTPUT:
+enter the stringapple
+the lenght of the string is 5
